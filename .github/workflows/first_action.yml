@@ -1,5 +1,9 @@
 name: first_workflow
+<<<<<<< HEAD
 on: [push, workflow_dispatch]
+=======
+on: workflow_dispatch
+>>>>>>> parent of 175d2e8 (updated workflow)
 jobs:
   first_job:
     runs-on: ubuntu-latest
